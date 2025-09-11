@@ -126,7 +126,6 @@ h2 {
 .infos p {
   font: var(--text-md-regular);
   color: var(--gray-200);
-  padding-block: 48px;
   text-align: center;
 }
 
@@ -139,4 +138,5 @@ h2 {
   display: grid;
   justify-self: center;
   gap: 16px;
+  padding-top: 48px;
 }
