@@ -70,10 +70,14 @@
 }
 
 .container-main h2 {
-  color: var(--gray-100);
-  font: var(--title-md);
   padding-top: 8px;
   padding-bottom: 56px;
+}
+
+h2 {
+  color: var(--gray-100);
+  font: var(--title-md);
+  text-align: center;
 }
 
 .components {
@@ -82,4 +86,57 @@
   justify-self: center;
   gap: 24px;
   width: 1040px;
+}
+
+.container-servicos span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.container-servicos {
+  text-align: center;
+}
+
+.page-main {
+  background-color: var(--gray-600);
+  padding: 88px 120px 120px 120px;
+}
+
+.components-2 {
+  display: flex;
+  gap: 24px;
+  justify-self: center;
+}
+
+.container-servicos h2 {
+  padding-block: 56px;
+}
+
+.contato {
+  background-image: url(../assets/images/Background_Contacts.png);
+  text-align: center;
+  padding: 128px 120px 200px 120px;
+}
+
+.infos span {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+
+.infos p {
+  font: var(--text-md-regular);
+  color: var(--gray-200);
+  padding-block: 48px;
+  text-align: center;
+}
+
+.infos h2 {
+  padding-top: 8px;
+  padding-block: 8px;
+}
+
+.botao {
+  display: grid;
+  justify-self: center;
+  gap: 16px;
 }
