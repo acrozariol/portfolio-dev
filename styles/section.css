@@ -140,3 +140,123 @@ h2 {
   gap: 16px;
   padding-top: 48px;
 }
+
+.github {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.github span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.html {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.html span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.css {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.css span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.javascript {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.javascript span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.react {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.react span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.node {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.node span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.botton {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
