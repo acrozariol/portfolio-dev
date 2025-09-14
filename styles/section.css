@@ -77,7 +77,7 @@ h2 {
   padding-block: 8px;
 }
 
-.linkedin {
+.contact {
   display: flex;
   background-color: var(--gray-400);
   border-radius: 8px;
@@ -91,7 +91,7 @@ h2 {
   text-decoration: none;
 }
 
-.linkedin span {
+.contact span {
   flex: 1;
   color: var(--gray-200);
   font: var(--text-md-regular);
@@ -100,7 +100,8 @@ h2 {
 
 .botao {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   padding-top: 48px;
+  gap: 16px;
+  align-items: center;
 }
