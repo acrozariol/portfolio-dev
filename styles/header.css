@@ -1,0 +1,164 @@
+.introduction p {
+  color: var(--gray-200);
+  font: var(--subtitle);
+  padding-bottom: 8px;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction span {
+  color: var(--red);
+}
+
+.introduction h1 {
+  font: var(--title-lg);
+  color: var(--gray-100);
+  padding-bottom: 20px;
+}
+
+.introduction div {
+  color: var(--gray-300);
+  font: var(--text-sm-regular);
+  padding-bottom: 80px;
+}
+
+.page {
+  padding: 120px 163px 57px 163px;
+
+  background-image: url(../assets/images/Background_Intro.png);
+}
+.introduction img {
+  border-radius: 999px;
+  width: 96px;
+  height: 96px;
+
+  height: 100%;
+  border: 2px solid var(--red, #e3646e);
+  position: relative;
+}
+
+.img-seta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 94px;
+}
+
+.github {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.github span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.html {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.html span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+  justify-content: center;
+}
+
+.css {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.css span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+}
+
+.javascript {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.javascript span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+}
+
+.react {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.react span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+}
+
+.node {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.node span {
+  display: flex;
+  color: var(--gray-200);
+  text-align: center;
+  font: var(--text-md-regular);
+}
+
+.botton {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
