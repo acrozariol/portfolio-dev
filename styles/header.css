@@ -34,8 +34,6 @@
   border-radius: 999px;
   width: 96px;
   height: 96px;
-
-  height: 100%;
   border: 2px solid var(--red, #e3646e);
   position: relative;
 }

@@ -28,3 +28,7 @@
   --text-md-regular: 400 16px/140% var(--font-family-3);
   --text-sm-regular: 400 14px/140% var(--font-family-3);
 }
+
+a {
+  text-decoration: none;
+}
