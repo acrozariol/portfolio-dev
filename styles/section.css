@@ -114,6 +114,10 @@ h2 {
   background-image: url(../assets/images/Background_Contacts.png);
   text-align: center;
   padding: 128px 120px 200px 120px;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .infos span {

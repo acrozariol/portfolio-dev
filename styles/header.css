@@ -13,8 +13,8 @@
 .introduction .avatar {
   position: relative; /* referência para a tag */
   display: inline-block;
-  width: 96px; /* largura da foto */
-  height: 96px; /* altura da foto */
+  width: 150px; /* largura da foto */
+  height: 150px; /* altura da foto */
 }
 
 .introduction .avatar img:first-child {
@@ -31,8 +31,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 24px;
-  height: 24px;
+  width: 45px;
+  height: 45px;
 }
 
 .introduction .avatar .tag img {
@@ -61,8 +61,11 @@
 
 .page {
   padding: 120px 163px 57px 163px;
-
   background-image: url(../assets/images/Background_Intro.png);
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .img-seta {
