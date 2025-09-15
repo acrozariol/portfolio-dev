@@ -48,7 +48,35 @@ h2 {
 .components-2 {
   display: flex;
   gap: 24px;
+  width: auto;
+  gap: 26px;
   justify-self: center;
+}
+
+.aplicacoes {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  border: 2px solid var(--gray-500);
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.aplicacoes img {
+  width: 48px;
+  height: 48px;
+}
+
+.aplicacoes span {
+  display: inline-flex;
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+.aplicacoes p {
+  font: var(--text-sm-regular);
+  color: var(--gray-200);
 }
 
 .container-servicos h2 {
