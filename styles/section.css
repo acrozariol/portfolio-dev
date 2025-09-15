@@ -36,6 +36,11 @@ h2 {
   text-align: start;
 }
 
+.cards:hover {
+  border: 1px solid var(--red);
+  transition: border-color 0.5s ease; /* suaviza a troca */
+}
+
 .cards img {
   width: 100%;
   border-radius: 8px;
@@ -85,20 +90,22 @@ h2 {
   flex-direction: column;
   justify-self: center;
   border: 2px solid var(--gray-500);
+  border-radius: 12px;
   width: 280px;
   padding: 20px;
-  border-radius: 12px;
 }
 
 .aplicacoes img {
   width: 48px;
-  height: 48px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .aplicacoes span {
   display: inline-flex;
   font: var(--title-sm);
   color: var(--gray-100);
+  padding-bottom: 8px;
 }
 
 .aplicacoes p {
