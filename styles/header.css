@@ -5,6 +5,12 @@
   padding-bottom: 8px;
 }
 
+.profile-description {
+  max-width: 65ch;
+  display: inline-block;
+  align-items: center;
+}
+
 .introduction {
   text-align: center;
   position: relative;
