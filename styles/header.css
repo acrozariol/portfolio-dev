@@ -82,7 +82,7 @@
   padding-top: 94px;
 }
 
-.tecnology {
+.tecnhology {
   background-color: var(--gray-400);
   border-radius: 999px;
 
@@ -93,7 +93,7 @@
   gap: 8px;
 }
 
-.tecnology span {
+.tecnhology span {
   display: flex;
   color: var(--gray-200);
   text-align: center;
