@@ -85,7 +85,7 @@ h2 {
   justify-self: center;
 }
 
-.aplicacoes {
+.applications {
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -95,20 +95,20 @@ h2 {
   padding: 20px;
 }
 
-.aplicacoes img {
+.applications img {
   width: 48px;
   height: auto;
   padding-bottom: 20px;
 }
 
-.aplicacoes span {
+.applications span {
   display: inline-flex;
   font: var(--title-sm);
   color: var(--gray-100);
   padding-bottom: 8px;
 }
 
-.aplicacoes p {
+.applications p {
   font: var(--text-sm-regular);
   color: var(--gray-200);
 }
@@ -117,7 +117,7 @@ h2 {
   padding-block: 56px;
 }
 
-.contato {
+.contact_info {
   background-image: url(../assets/images/Background_Contacts.png);
   text-align: center;
   padding: 128px 120px 200px 120px;
@@ -164,7 +164,7 @@ h2 {
   text-align: start;
 }
 
-.botao {
+.button {
   display: flex;
   flex-direction: column;
   padding-top: 48px;
